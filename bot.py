@@ -45,3 +45,6 @@ async def clear_error( ctx, error ):
 
 	if isinstance( error, commands.MissingPermissions ):
 		await ctx.send( f'🛑 {ctx.author.mention} у вас недостаточно прав!' ) 
+
+token = os.environ.get('BOT_TOKEN')
+Bot.run(str(token))
