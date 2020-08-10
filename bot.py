@@ -2,13 +2,8 @@
 # Импорты библиотек
 
 import discord
-import random
 from discord.ext import commands
 import asyncio
-import socket
-import datetime
-from datetime import timedelta
-import requests
 
 
 
